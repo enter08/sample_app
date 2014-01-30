@@ -60,9 +60,9 @@ describe "Static pages" do
 
   describe "Contact page" do
 
-    it "should have the content Sample App" do
+     it "should have the content 'Contact'" do
       visit '/static_pages/contact'
-      expect(page).to have_content('Sample App')
+      expect(page).to have_content('Contact')
     end
 
     it "should have the base title" do
